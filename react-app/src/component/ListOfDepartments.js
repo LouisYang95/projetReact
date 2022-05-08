@@ -4,18 +4,17 @@ class Search extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello !</h1>
-        {/* <input
-          id="value"
-          type="search"
-          placeholder="Search"
-          name="positionode"
-          list="datalist"
-          onChange={this.props.renderDepartments}
-        /> */}
-          <label> Choose a town: </label>
-        <select id="datalist" >
-        </select>
+        <h1 className="title1" id="title1">
+          Hello !
+        </h1>
+        <div className="select-users">
+          <label> Choose a department : </label>
+          <select id="datalist" onChange={this.props.listUsers}></select>
+
+          <button onClick={this.props.displayUsers} className="btn">
+            Back to list of users
+          </button>
+        </div>
       </div>
     );
   }
