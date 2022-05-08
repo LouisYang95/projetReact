@@ -20,9 +20,17 @@ html *{
 .users{
     padding: 0.2em;
 }
+ul{
+    padding-top: 0.2em;
+    padding-inline-start: 0px
+}
 li{
     padding: 0.2em;
+    list-style: none;
+    border-bottom: solid 0.5px;
+    background-color: rgb(224, 231, 230);
 }
+
 .select-users{
     display: flex;
     flex-direction: column;
@@ -43,4 +51,5 @@ select{
 }
 label{
     margin: 0.2em;
+
 }
