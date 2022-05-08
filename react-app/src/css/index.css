@@ -1,0 +1,46 @@
+html *{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.title1{
+    font-size: 2 em;
+    display: flex;
+    justify-content: center;
+}
+
+.users-container{
+    background-color: whitesmoke;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.users{
+    padding: 0.2em;
+}
+li{
+    padding: 0.2em;
+}
+.select-users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+select{
+    border-radius: 2em;
+    border: #0099AA 1px solid;
+    margin: 0.2em;
+}
+.btn{
+    background-color: #0099AA;
+    color: white;
+    margin: 0.3em;
+    border: none;
+    cursor: pointer;
+    border-radius: 1em;
+}
+label{
+    margin: 0.2em;
+}
